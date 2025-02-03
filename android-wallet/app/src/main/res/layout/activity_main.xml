@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/senderField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sender" />
+
+    <EditText
+        android:id="@+id/receiverField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Receiver" />
+
+    <EditText
+        android:id="@+id/amountField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/sendTxButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Transaction"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/responseView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Response here"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
